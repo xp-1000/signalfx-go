@@ -64,6 +64,17 @@ const (
 	AZURE_MICROSOFT_CONTAINERINSTANCE_MANAGEDCLUSTERS            AzureService = "microsoft.containerservice/managedclusters"
 	AZURE_MICROSOFT_KUSTO_CLUSTERS                               AzureService = "microsoft.kusto/clusters"
 	AZURE_MICROSOFT_MACHINELEARNINGSERVICES_WORKSPACES           AzureService = "microsoft.machinelearningservices/workspaces"
+	AZURE_MICROSOFT_EVENTGRID_EVENTSSUBSCRIPTIONS                AzureService = "microsoft.eventgrid/eventsubscriptions"
+	AZURE_MICROSOFT_EVENTGRID_EXTENSIONTOPICS                    AzureService = "microsoft.eventgrid/extensiontopics"
+	AZURE_MICROSOFT_EVENTGRID_SYSTEMTOPICS                       AzureService = "microsoft.eventgrid/systemtopics"
+	AZURE_MICROSOFT_EVENTGRID_TOPICS                             AzureService = "microsoft.eventgrid/topics"
+	AZURE_MICROSOFT_EVENTGRID_DOMAINS                            AzureService = "microsoft.eventgrid/domains"
+	AZURE_MICROSOFT_NETWORK_FRONTDOORS                           AzureService = "microsoft.network/frontdoors"
+	AZURE_MICROSOFT_NETWORK_AZUREFIREWALLS                       AzureService = "microsoft.network/azurefirewalls"
+	AZURE_MICROSOFT_MAPS_ACCOUNTS                                AzureService = "microsoft.maps/accounts"
+	AZURE_MICROSOFT_NETWORK_NETWORKINTERFACES                    AzureService = "microsoft.network/networkinterfaces"
+	AZURE_MICROSOFT_CDN_CDNWEBAPPLICATIONFIREWALLPOLICIES        AzureService = "microsoft.cdn/cdnwebapplicationfirewallpolicies"
+	AZURE_MICROSOFT_CONTAINERREGISTRY_REGISTRIES                 AzureService = "microsoft.containerregistry/registries"
 )
 
 // AzureServiceNames is a list of Azure service names
@@ -127,4 +138,15 @@ var AzureServiceNames = map[string]AzureService{
 	"microsoft.containerservice/managedclusters":                AZURE_MICROSOFT_CONTAINERINSTANCE_MANAGEDCLUSTERS,
 	"microsoft.kusto/clusters":                                  AZURE_MICROSOFT_KUSTO_CLUSTERS,
 	"microsoft.machinelearningservices/workspaces":              AZURE_MICROSOFT_MACHINELEARNINGSERVICES_WORKSPACES,
+	"microsoft.eventgrid/eventsubscriptions":                    AZURE_MICROSOFT_EVENTGRID_EVENTSSUBSCRIPTIONS,
+	"microsoft.eventgrid/extensiontopics":                       AZURE_MICROSOFT_EVENTGRID_EXTENSIONTOPICS,
+	"microsoft.eventgrid/systemtopics":                          AZURE_MICROSOFT_EVENTGRID_SYSTEMTOPICS,
+	"microsoft.eventgrid/topics":                                AZURE_MICROSOFT_EVENTGRID_TOPICS,
+	"microsoft.eventgrid/domains":                               AZURE_MICROSOFT_EVENTGRID_DOMAINS,
+	"microsoft.network/frontdoors":                              AZURE_MICROSOFT_NETWORK_FRONTDOORS,
+	"microsoft.network/azurefirewalls":                          AZURE_MICROSOFT_NETWORK_AZUREFIREWALLS,
+	"microsoft.maps/accounts":                                   AZURE_MICROSOFT_MAPS_ACCOUNTS,
+	"microsoft.network/networkinterfaces":                       AZURE_MICROSOFT_NETWORK_NETWORKINTERFACES,
+	"microsoft.cdn/cdnwebapplicationfirewallpolicies":           AZURE_MICROSOFT_CDN_CDNWEBAPPLICATIONFIREWALLPOLICIES,
+	"microsoft.containerregistry/registries":                    AZURE_MICROSOFT_CONTAINERREGISTRY_REGISTRIES,
 }
